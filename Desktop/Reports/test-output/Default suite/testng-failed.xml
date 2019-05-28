@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.reports.testcases.TestRevenueAccrualReportBuilder">
+        <methods>
+          <include name="pdfTest" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="checkFavouriteReportsForDefaultDate_option1"/>
+          <include name="createFavouritesForAllowedReportDurationoption" invocation-numbers="0 1 2 3"/>
+          <include name="checkFavouriteReportsForDefaultDate_option3"/>
+          <include name="checkFavouriteReportsForDefaultDate_option2"/>
+          <include name="checkFavouriteReportsForDefaultDate_optionSelect"/>
+          <include name="verifyAllowedReportDurationDropdown" invocation-numbers="0 1 2 3"/>
+          <include name="check2MonthFavPDFReport"/>
+          <include name="checkAutoCustomDateOption"/>
+          <include name="switchToTheUser"/>
+          <include name="check1MonthFavPDFReport"/>
+          <include name="check3MonthFavPDFReport"/>
+          <include name="setUp"/>
+          <include name="chekForCorporateOffice" invocation-numbers="0 1 2 3 4 5 6 7"/>
+        </methods>
+      </class> <!-- com.reports.testcases.TestRevenueAccrualReportBuilder -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

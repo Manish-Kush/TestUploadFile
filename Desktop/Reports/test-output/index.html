@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">59 methods,   59 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="check1MonthFavPDFReport">check1MonthFavPDFReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="check2MonthFavPDFReport">check2MonthFavPDFReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="check3MonthFavPDFReport">check3MonthFavPDFReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="checkAutoCustomDateOption">checkAutoCustomDateOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="checkFavouriteReportsForDefaultDate_option1">checkFavouriteReportsForDefaultDate_option1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="checkFavouriteReportsForDefaultDate_option2">checkFavouriteReportsForDefaultDate_option2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="checkFavouriteReportsForDefaultDate_option3">checkFavouriteReportsForDefaultDate_option3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="checkFavouriteReportsForDefaultDate_optionSelect">checkFavouriteReportsForDefaultDate_optionSelect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="checkForPreviousFinancialYear">checkForPreviousFinancialYear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="checkForThisFinancialYear">checkForThisFinancialYear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="chekForCorporateOffice(Previous Month, text)">chekForCorporateOffice(Previous Month, text)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="chekForCorporateOffice(This Month, pdf)">chekForCorporateOffice(This Month, pdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="chekForCorporateOffice(Today, pdf)">chekForCorporateOffice(Today, pdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="chekForCorporateOffice(Custom Date, pdf)">chekForCorporateOffice(Custom Date, pdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="chekForCorporateOffice(Previous Month, pdf)">chekForCorporateOffice(Previous Month, pdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="chekForCorporateOffice(This Month, csv)">chekForCorporateOffice(This Month, csv)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="chekForCorporateOffice(Today, csv)">chekForCorporateOffice(Today, csv)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="chekForCorporateOffice(Yesterday, pdf)">chekForCorporateOffice(Yesterday, pdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="createFavouritesForAllowedReportDurationoption(2, Please Select 2 Months Duration and save the report.)">createFavouritesForAllowedReportDurationoption(2, Please Select 2 Months Duration and save the report.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="createFavouritesForAllowedReportDurationoption(1, Please Select 1 Month Duration and save the report.)">createFavouritesForAllowedReportDurationoption(1, Please Select 1 Month Duration and save the report.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="createFavouritesForAllowedReportDurationoption(-- Select --, Please Select 3 Months Duration and save the report.)">createFavouritesForAllowedReportDurationoption(-- Select --, Please Select 3 Months Duration and save the report.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="createFavouritesForAllowedReportDurationoption(3, Please Select 3 Months Duration and save the report.)">createFavouritesForAllowedReportDurationoption(3, Please Select 3 Months Duration and save the report.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="pdfTest(Today, csv)">pdfTest(Today, csv)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="pdfTest(This Month, pdf)">pdfTest(This Month, pdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="pdfTest(Today, pdf)">pdfTest(Today, pdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="pdfTest(Previous Month, text)">pdfTest(Previous Month, text)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="pdfTest(This Month, csv)">pdfTest(This Month, csv)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="pdfTest(Previous Month, pdf)">pdfTest(Previous Month, pdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="pdfTest(Yesterday, pdf)">pdfTest(Yesterday, pdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="pdfTest(Custom Date, pdf)">pdfTest(Custom Date, pdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="switchToTheUser">switchToTheUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="test3MonthCsv">test3MonthCsv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="test3MonthPdf">test3MonthPdf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="test3MonthText">test3MonthText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testDateFieldsBlank_csv">testDateFieldsBlank_csv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testDateFieldsBlank_favSaveButton">testDateFieldsBlank_favSaveButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testDateFieldsBlank_pdf">testDateFieldsBlank_pdf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testDateFieldsBlank_text">testDateFieldsBlank_text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testFromDateFieldBlank_cvs">testFromDateFieldBlank_cvs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testFromDateFieldBlank_favSaveButton">testFromDateFieldBlank_favSaveButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testFromDateFieldBlank_pdf">testFromDateFieldBlank_pdf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testFromDateFieldBlank_text">testFromDateFieldBlank_text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testToDateFieldBlank_cvs">testToDateFieldBlank_cvs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testToDateFieldBlank_favSaveButton">testToDateFieldBlank_favSaveButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testToDateFieldBlank_pdf">testToDateFieldBlank_pdf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="testToDateFieldBlank_text">testToDateFieldBlank_text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyAllowedReportDurationDropdown(3, Please Select 3 Months Duration and save the report.)">verifyAllowedReportDurationDropdown(3, Please Select 3 Months Duration and save the report.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyAllowedReportDurationDropdown(-- Select --, Please Select 3 Months Duration and save the report.)">verifyAllowedReportDurationDropdown(-- Select --, Please Select 3 Months Duration and save the report.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyAllowedReportDurationDropdown(2, Please Select 2 Months Duration and save the report.)">verifyAllowedReportDurationDropdown(2, Please Select 2 Months Duration and save the report.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyAllowedReportDurationDropdown(1, Please Select 1 Month Duration and save the report.)">verifyAllowedReportDurationDropdown(1, Please Select 1 Month Duration and save the report.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyDateFieldsForFromPastToFuture_csv">verifyDateFieldsForFromPastToFuture_csv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyDateFieldsForFromPastToFuture_fav">verifyDateFieldsForFromPastToFuture_fav</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyDateFieldsForFromPastToFuture_pdf">verifyDateFieldsForFromPastToFuture_pdf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyDateFieldsForFromPastToFuture_text">verifyDateFieldsForFromPastToFuture_text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyDateFieldsForPreviousMonthOptions">verifyDateFieldsForPreviousMonthOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyDateFieldsForThisMonthOptions">verifyDateFieldsForThisMonthOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyDateFieldsForTodayOptions">verifyDateFieldsForTodayOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="verifyDateFieldsForYesterdayOptions">verifyDateFieldsForYesterdayOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.reports.testcases.TestRevenueAccrualReportBuilder" hash-for-method="vreifyForYesterdaysDateOnReFreshing">vreifyForYesterdaysDateOnReFreshing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.reports.testcases.TestRevenueAccrualReportBuilder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check1MonthFavPDFReport">
+                  </a> <!-- check1MonthFavPDFReport -->
+                  <span class="method-name">check1MonthFavPDFReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check2MonthFavPDFReport">
+                  </a> <!-- check2MonthFavPDFReport -->
+                  <span class="method-name">check2MonthFavPDFReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check3MonthFavPDFReport">
+                  </a> <!-- check3MonthFavPDFReport -->
+                  <span class="method-name">check3MonthFavPDFReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAutoCustomDateOption">
+                  </a> <!-- checkAutoCustomDateOption -->
+                  <span class="method-name">checkAutoCustomDateOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFavouriteReportsForDefaultDate_option1">
+                  </a> <!-- checkFavouriteReportsForDefaultDate_option1 -->
+                  <span class="method-name">checkFavouriteReportsForDefaultDate_option1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFavouriteReportsForDefaultDate_option2">
+                  </a> <!-- checkFavouriteReportsForDefaultDate_option2 -->
+                  <span class="method-name">checkFavouriteReportsForDefaultDate_option2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFavouriteReportsForDefaultDate_option3">
+                  </a> <!-- checkFavouriteReportsForDefaultDate_option3 -->
+                  <span class="method-name">checkFavouriteReportsForDefaultDate_option3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFavouriteReportsForDefaultDate_optionSelect">
+                  </a> <!-- checkFavouriteReportsForDefaultDate_optionSelect -->
+                  <span class="method-name">checkFavouriteReportsForDefaultDate_optionSelect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkForPreviousFinancialYear">
+                  </a> <!-- checkForPreviousFinancialYear -->
+                  <span class="method-name">checkForPreviousFinancialYear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkForThisFinancialYear">
+                  </a> <!-- checkForThisFinancialYear -->
+                  <span class="method-name">checkForThisFinancialYear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chekForCorporateOffice(Previous Month, text)">
+                  </a> <!-- chekForCorporateOffice(Previous Month, text) -->
+                  <span class="method-name">chekForCorporateOffice</span>
+                  <span class="parameters">(Previous Month, text)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chekForCorporateOffice(This Month, pdf)">
+                  </a> <!-- chekForCorporateOffice(This Month, pdf) -->
+                  <span class="method-name">chekForCorporateOffice</span>
+                  <span class="parameters">(This Month, pdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chekForCorporateOffice(Today, pdf)">
+                  </a> <!-- chekForCorporateOffice(Today, pdf) -->
+                  <span class="method-name">chekForCorporateOffice</span>
+                  <span class="parameters">(Today, pdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chekForCorporateOffice(Custom Date, pdf)">
+                  </a> <!-- chekForCorporateOffice(Custom Date, pdf) -->
+                  <span class="method-name">chekForCorporateOffice</span>
+                  <span class="parameters">(Custom Date, pdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chekForCorporateOffice(Previous Month, pdf)">
+                  </a> <!-- chekForCorporateOffice(Previous Month, pdf) -->
+                  <span class="method-name">chekForCorporateOffice</span>
+                  <span class="parameters">(Previous Month, pdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chekForCorporateOffice(This Month, csv)">
+                  </a> <!-- chekForCorporateOffice(This Month, csv) -->
+                  <span class="method-name">chekForCorporateOffice</span>
+                  <span class="parameters">(This Month, csv)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chekForCorporateOffice(Today, csv)">
+                  </a> <!-- chekForCorporateOffice(Today, csv) -->
+                  <span class="method-name">chekForCorporateOffice</span>
+                  <span class="parameters">(Today, csv)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chekForCorporateOffice(Yesterday, pdf)">
+                  </a> <!-- chekForCorporateOffice(Yesterday, pdf) -->
+                  <span class="method-name">chekForCorporateOffice</span>
+                  <span class="parameters">(Yesterday, pdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createFavouritesForAllowedReportDurationoption(2, Please Select 2 Months Duration and save the report.)">
+                  </a> <!-- createFavouritesForAllowedReportDurationoption(2, Please Select 2 Months Duration and save the report.) -->
+                  <span class="method-name">createFavouritesForAllowedReportDurationoption</span>
+                  <span class="parameters">(2, Please Select 2 Months Duration and save the report.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createFavouritesForAllowedReportDurationoption(1, Please Select 1 Month Duration and save the report.)">
+                  </a> <!-- createFavouritesForAllowedReportDurationoption(1, Please Select 1 Month Duration and save the report.) -->
+                  <span class="method-name">createFavouritesForAllowedReportDurationoption</span>
+                  <span class="parameters">(1, Please Select 1 Month Duration and save the report.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createFavouritesForAllowedReportDurationoption(-- Select --, Please Select 3 Months Duration and save the report.)">
+                  </a> <!-- createFavouritesForAllowedReportDurationoption(- Select -, Please Select 3 Months Duration and save the report.) -->
+                  <span class="method-name">createFavouritesForAllowedReportDurationoption</span>
+                  <span class="parameters">(-- Select --, Please Select 3 Months Duration and save the report.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createFavouritesForAllowedReportDurationoption(3, Please Select 3 Months Duration and save the report.)">
+                  </a> <!-- createFavouritesForAllowedReportDurationoption(3, Please Select 3 Months Duration and save the report.) -->
+                  <span class="method-name">createFavouritesForAllowedReportDurationoption</span>
+                  <span class="parameters">(3, Please Select 3 Months Duration and save the report.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdfTest(Today, csv)">
+                  </a> <!-- pdfTest(Today, csv) -->
+                  <span class="method-name">pdfTest</span>
+                  <span class="parameters">(Today, csv)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdfTest(This Month, pdf)">
+                  </a> <!-- pdfTest(This Month, pdf) -->
+                  <span class="method-name">pdfTest</span>
+                  <span class="parameters">(This Month, pdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdfTest(Today, pdf)">
+                  </a> <!-- pdfTest(Today, pdf) -->
+                  <span class="method-name">pdfTest</span>
+                  <span class="parameters">(Today, pdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdfTest(Previous Month, text)">
+                  </a> <!-- pdfTest(Previous Month, text) -->
+                  <span class="method-name">pdfTest</span>
+                  <span class="parameters">(Previous Month, text)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdfTest(This Month, csv)">
+                  </a> <!-- pdfTest(This Month, csv) -->
+                  <span class="method-name">pdfTest</span>
+                  <span class="parameters">(This Month, csv)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdfTest(Previous Month, pdf)">
+                  </a> <!-- pdfTest(Previous Month, pdf) -->
+                  <span class="method-name">pdfTest</span>
+                  <span class="parameters">(Previous Month, pdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdfTest(Yesterday, pdf)">
+                  </a> <!-- pdfTest(Yesterday, pdf) -->
+                  <span class="method-name">pdfTest</span>
+                  <span class="parameters">(Yesterday, pdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdfTest(Custom Date, pdf)">
+                  </a> <!-- pdfTest(Custom Date, pdf) -->
+                  <span class="method-name">pdfTest</span>
+                  <span class="parameters">(Custom Date, pdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchToTheUser">
+                  </a> <!-- switchToTheUser -->
+                  <span class="method-name">switchToTheUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3MonthCsv">
+                  </a> <!-- test3MonthCsv -->
+                  <span class="method-name">test3MonthCsv</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3MonthPdf">
+                  </a> <!-- test3MonthPdf -->
+                  <span class="method-name">test3MonthPdf</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3MonthText">
+                  </a> <!-- test3MonthText -->
+                  <span class="method-name">test3MonthText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDateFieldsBlank_csv">
+                  </a> <!-- testDateFieldsBlank_csv -->
+                  <span class="method-name">testDateFieldsBlank_csv</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDateFieldsBlank_favSaveButton">
+                  </a> <!-- testDateFieldsBlank_favSaveButton -->
+                  <span class="method-name">testDateFieldsBlank_favSaveButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDateFieldsBlank_pdf">
+                  </a> <!-- testDateFieldsBlank_pdf -->
+                  <span class="method-name">testDateFieldsBlank_pdf</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDateFieldsBlank_text">
+                  </a> <!-- testDateFieldsBlank_text -->
+                  <span class="method-name">testDateFieldsBlank_text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFromDateFieldBlank_cvs">
+                  </a> <!-- testFromDateFieldBlank_cvs -->
+                  <span class="method-name">testFromDateFieldBlank_cvs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFromDateFieldBlank_favSaveButton">
+                  </a> <!-- testFromDateFieldBlank_favSaveButton -->
+                  <span class="method-name">testFromDateFieldBlank_favSaveButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFromDateFieldBlank_pdf">
+                  </a> <!-- testFromDateFieldBlank_pdf -->
+                  <span class="method-name">testFromDateFieldBlank_pdf</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFromDateFieldBlank_text">
+                  </a> <!-- testFromDateFieldBlank_text -->
+                  <span class="method-name">testFromDateFieldBlank_text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToDateFieldBlank_cvs">
+                  </a> <!-- testToDateFieldBlank_cvs -->
+                  <span class="method-name">testToDateFieldBlank_cvs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToDateFieldBlank_favSaveButton">
+                  </a> <!-- testToDateFieldBlank_favSaveButton -->
+                  <span class="method-name">testToDateFieldBlank_favSaveButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToDateFieldBlank_pdf">
+                  </a> <!-- testToDateFieldBlank_pdf -->
+                  <span class="method-name">testToDateFieldBlank_pdf</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToDateFieldBlank_text">
+                  </a> <!-- testToDateFieldBlank_text -->
+                  <span class="method-name">testToDateFieldBlank_text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllowedReportDurationDropdown(3, Please Select 3 Months Duration and save the report.)">
+                  </a> <!-- verifyAllowedReportDurationDropdown(3, Please Select 3 Months Duration and save the report.) -->
+                  <span class="method-name">verifyAllowedReportDurationDropdown</span>
+                  <span class="parameters">(3, Please Select 3 Months Duration and save the report.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllowedReportDurationDropdown(-- Select --, Please Select 3 Months Duration and save the report.)">
+                  </a> <!-- verifyAllowedReportDurationDropdown(- Select -, Please Select 3 Months Duration and save the report.) -->
+                  <span class="method-name">verifyAllowedReportDurationDropdown</span>
+                  <span class="parameters">(-- Select --, Please Select 3 Months Duration and save the report.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllowedReportDurationDropdown(2, Please Select 2 Months Duration and save the report.)">
+                  </a> <!-- verifyAllowedReportDurationDropdown(2, Please Select 2 Months Duration and save the report.) -->
+                  <span class="method-name">verifyAllowedReportDurationDropdown</span>
+                  <span class="parameters">(2, Please Select 2 Months Duration and save the report.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllowedReportDurationDropdown(1, Please Select 1 Month Duration and save the report.)">
+                  </a> <!-- verifyAllowedReportDurationDropdown(1, Please Select 1 Month Duration and save the report.) -->
+                  <span class="method-name">verifyAllowedReportDurationDropdown</span>
+                  <span class="parameters">(1, Please Select 1 Month Duration and save the report.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDateFieldsForFromPastToFuture_csv">
+                  </a> <!-- verifyDateFieldsForFromPastToFuture_csv -->
+                  <span class="method-name">verifyDateFieldsForFromPastToFuture_csv</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDateFieldsForFromPastToFuture_fav">
+                  </a> <!-- verifyDateFieldsForFromPastToFuture_fav -->
+                  <span class="method-name">verifyDateFieldsForFromPastToFuture_fav</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDateFieldsForFromPastToFuture_pdf">
+                  </a> <!-- verifyDateFieldsForFromPastToFuture_pdf -->
+                  <span class="method-name">verifyDateFieldsForFromPastToFuture_pdf</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDateFieldsForFromPastToFuture_text">
+                  </a> <!-- verifyDateFieldsForFromPastToFuture_text -->
+                  <span class="method-name">verifyDateFieldsForFromPastToFuture_text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDateFieldsForPreviousMonthOptions">
+                  </a> <!-- verifyDateFieldsForPreviousMonthOptions -->
+                  <span class="method-name">verifyDateFieldsForPreviousMonthOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDateFieldsForThisMonthOptions">
+                  </a> <!-- verifyDateFieldsForThisMonthOptions -->
+                  <span class="method-name">verifyDateFieldsForThisMonthOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDateFieldsForTodayOptions">
+                  </a> <!-- verifyDateFieldsForTodayOptions -->
+                  <span class="method-name">verifyDateFieldsForTodayOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDateFieldsForYesterdayOptions">
+                  </a> <!-- verifyDateFieldsForYesterdayOptions -->
+                  <span class="method-name">verifyDateFieldsForYesterdayOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="vreifyForYesterdaysDateOnReFreshing">
+                  </a> <!-- vreifyForYesterdaysDateOnReFreshing -->
+                  <span class="method-name">vreifyForYesterdaysDateOnReFreshing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/tmp/testng-eclipse-1884231232/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.reports.testcases.TestRevenueAccrualReportBuilder&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(59);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'vreifyForYesterdaysDateOnReFreshing')
+data.setCell(0, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(0, 3, 26688);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkFavouriteReportsForDefaultDate_option2')
+data.setCell(1, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(1, 3, 15607);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkFavouriteReportsForDefaultDate_option1')
+data.setCell(2, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(2, 3, 15561);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkFavouriteReportsForDefaultDate_option3')
+data.setCell(3, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(3, 3, 15466);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkFavouriteReportsForDefaultDate_optionSelect')
+data.setCell(4, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(4, 3, 15260);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'check1MonthFavPDFReport')
+data.setCell(5, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(5, 3, 9523);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'check2MonthFavPDFReport')
+data.setCell(6, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(6, 3, 9443);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'check3MonthFavPDFReport')
+data.setCell(7, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(7, 3, 9377);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'chekForCorporateOffice')
+data.setCell(8, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(8, 3, 7606);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createFavouritesForAllowedReportDurationoption')
+data.setCell(9, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(9, 3, 6859);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createFavouritesForAllowedReportDurationoption')
+data.setCell(10, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(10, 3, 6284);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createFavouritesForAllowedReportDurationoption')
+data.setCell(11, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(11, 3, 5449);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'createFavouritesForAllowedReportDurationoption')
+data.setCell(12, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(12, 3, 5223);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'pdfTest')
+data.setCell(13, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(13, 3, 4765);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'switchToTheUser')
+data.setCell(14, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(14, 3, 1618);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'pdfTest')
+data.setCell(15, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(15, 3, 1514);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'pdfTest')
+data.setCell(16, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(16, 3, 1481);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'pdfTest')
+data.setCell(17, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(17, 3, 1242);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'pdfTest')
+data.setCell(18, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(18, 3, 1193);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'pdfTest')
+data.setCell(19, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(19, 3, 1127);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'pdfTest')
+data.setCell(20, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(20, 3, 1126);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'pdfTest')
+data.setCell(21, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(21, 3, 1110);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkAutoCustomDateOption')
+data.setCell(22, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(22, 3, 686);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyDateFieldsForYesterdayOptions')
+data.setCell(23, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(23, 3, 614);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyAllowedReportDurationDropdown')
+data.setCell(24, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(24, 3, 563);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyAllowedReportDurationDropdown')
+data.setCell(25, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(25, 3, 534);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyAllowedReportDurationDropdown')
+data.setCell(26, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(26, 3, 532);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyAllowedReportDurationDropdown')
+data.setCell(27, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(27, 3, 518);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'chekForCorporateOffice')
+data.setCell(28, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(28, 3, 394);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'chekForCorporateOffice')
+data.setCell(29, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(29, 3, 362);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'chekForCorporateOffice')
+data.setCell(30, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(30, 3, 351);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'chekForCorporateOffice')
+data.setCell(31, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(31, 3, 349);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'chekForCorporateOffice')
+data.setCell(32, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(32, 3, 344);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'chekForCorporateOffice')
+data.setCell(33, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(33, 3, 343);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyDateFieldsForThisMonthOptions')
+data.setCell(34, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(34, 3, 335);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'chekForCorporateOffice')
+data.setCell(35, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(35, 3, 332);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyDateFieldsForTodayOptions')
+data.setCell(36, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(36, 3, 328);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyDateFieldsForPreviousMonthOptions')
+data.setCell(37, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(37, 3, 328);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'test3MonthPdf')
+data.setCell(38, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(38, 3, 296);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyDateFieldsForFromPastToFuture_pdf')
+data.setCell(39, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(39, 3, 231);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'test3MonthCsv')
+data.setCell(40, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(40, 3, 226);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testFromDateFieldBlank_favSaveButton')
+data.setCell(41, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(41, 3, 224);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verifyDateFieldsForFromPastToFuture_fav')
+data.setCell(42, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(42, 3, 213);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testToDateFieldBlank_favSaveButton')
+data.setCell(43, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(43, 3, 209);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testDateFieldsBlank_favSaveButton')
+data.setCell(44, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(44, 3, 201);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testDateFieldsBlank_text')
+data.setCell(45, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(45, 3, 199);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'verifyDateFieldsForFromPastToFuture_csv')
+data.setCell(46, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(46, 3, 197);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'test3MonthText')
+data.setCell(47, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(47, 3, 196);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testDateFieldsBlank_pdf')
+data.setCell(48, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(48, 3, 196);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testFromDateFieldBlank_pdf')
+data.setCell(49, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(49, 3, 180);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testFromDateFieldBlank_text')
+data.setCell(50, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(50, 3, 179);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testToDateFieldBlank_cvs')
+data.setCell(51, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(51, 3, 178);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'verifyDateFieldsForFromPastToFuture_text')
+data.setCell(52, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(52, 3, 168);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testFromDateFieldBlank_cvs')
+data.setCell(53, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(53, 3, 161);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testToDateFieldBlank_pdf')
+data.setCell(54, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(54, 3, 151);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'checkForThisFinancialYear')
+data.setCell(55, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(55, 3, 150);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testDateFieldsBlank_csv')
+data.setCell(56, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(56, 3, 148);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testToDateFieldBlank_text')
+data.setCell(57, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(57, 3, 148);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'checkForPreviousFinancialYear')
+data.setCell(58, 2, 'com.reports.testcases.TestRevenueAccrualReportBuilder')
+data.setCell(58, 3, 113);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.reports.testcases.TestRevenueAccrualReportBuilder</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test3MonthPdf</span>
+                <span class="method-start">17617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3MonthCsv</span>
+                <span class="method-start">17917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3MonthText</span>
+                <span class="method-start">18147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDateFieldsBlank_pdf</span>
+                <span class="method-start">18345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDateFieldsBlank_csv</span>
+                <span class="method-start">18544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDateFieldsBlank_text</span>
+                <span class="method-start">18694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFromDateFieldBlank_pdf</span>
+                <span class="method-start">18895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToDateFieldBlank_pdf</span>
+                <span class="method-start">19077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFromDateFieldBlank_cvs</span>
+                <span class="method-start">19232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToDateFieldBlank_cvs</span>
+                <span class="method-start">19396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFromDateFieldBlank_text</span>
+                <span class="method-start">19579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToDateFieldBlank_text</span>
+                <span class="method-start">19761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDateFieldsBlank_favSaveButton</span>
+                <span class="method-start">19911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFromDateFieldBlank_favSaveButton</span>
+                <span class="method-start">20118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToDateFieldBlank_favSaveButton</span>
+                <span class="method-start">20349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkForThisFinancialYear</span>
+                <span class="method-start">20562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkForPreviousFinancialYear</span>
+                <span class="method-start">20713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDateFieldsForYesterdayOptions</span>
+                <span class="method-start">20827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDateFieldsForTodayOptions</span>
+                <span class="method-start">21443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDateFieldsForPreviousMonthOptions</span>
+                <span class="method-start">21772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDateFieldsForThisMonthOptions</span>
+                <span class="method-start">22101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDateFieldsForFromPastToFuture_pdf</span>
+                <span class="method-start">22437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDateFieldsForFromPastToFuture_csv</span>
+                <span class="method-start">22670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDateFieldsForFromPastToFuture_text</span>
+                <span class="method-start">22868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDateFieldsForFromPastToFuture_fav</span>
+                <span class="method-start">23038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">vreifyForYesterdaysDateOnReFreshing</span>
+                <span class="method-start">23254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAutoCustomDateOption</span>
+                <span class="method-start">49943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAllowedReportDurationDropdown(1, Please Select 1 Month Duration and save the report.)</span>
+                <span class="method-start">50634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAllowedReportDurationDropdown(2, Please Select 2 Months Duration and save the report.)</span>
+                <span class="method-start">51155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAllowedReportDurationDropdown(3, Please Select 3 Months Duration and save the report.)</span>
+                <span class="method-start">51720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAllowedReportDurationDropdown(-- Select --, Please Select 3 Months Duration and save the report.)</span>
+                <span class="method-start">52255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pdfTest(Yesterday, pdf)</span>
+                <span class="method-start">52791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pdfTest(Custom Date, pdf)</span>
+                <span class="method-start">54273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pdfTest(Today, pdf)</span>
+                <span class="method-start">55401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pdfTest(This Month, pdf)</span>
+                <span class="method-start">56528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pdfTest(Previous Month, pdf)</span>
+                <span class="method-start">57771 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pdfTest(Today, csv)</span>
+                <span class="method-start">62537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pdfTest(Previous Month, text)</span>
+                <span class="method-start">63732 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pdfTest(This Month, csv)</span>
+                <span class="method-start">65247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createFavouritesForAllowedReportDurationoption(1, Please Select 1 Month Duration and save the report.)</span>
+                <span class="method-start">66363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createFavouritesForAllowedReportDurationoption(2, Please Select 2 Months Duration and save the report.)</span>
+                <span class="method-start">73223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createFavouritesForAllowedReportDurationoption(3, Please Select 3 Months Duration and save the report.)</span>
+                <span class="method-start">79508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createFavouritesForAllowedReportDurationoption(-- Select --, Please Select 3 Months Duration and save the report.)</span>
+                <span class="method-start">84958 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkFavouriteReportsForDefaultDate_option1</span>
+                <span class="method-start">90183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkFavouriteReportsForDefaultDate_option2</span>
+                <span class="method-start">105746 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkFavouriteReportsForDefaultDate_option3</span>
+                <span class="method-start">121354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkFavouriteReportsForDefaultDate_optionSelect</span>
+                <span class="method-start">136821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">switchToTheUser</span>
+                <span class="method-start">152083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check1MonthFavPDFReport</span>
+                <span class="method-start">153704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check2MonthFavPDFReport</span>
+                <span class="method-start">163228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check3MonthFavPDFReport</span>
+                <span class="method-start">172672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chekForCorporateOffice(Yesterday, pdf)</span>
+                <span class="method-start">182059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chekForCorporateOffice(Custom Date, pdf)</span>
+                <span class="method-start">189666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chekForCorporateOffice(Today, pdf)</span>
+                <span class="method-start">190018 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chekForCorporateOffice(This Month, pdf)</span>
+                <span class="method-start">190413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chekForCorporateOffice(Previous Month, pdf)</span>
+                <span class="method-start">190776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chekForCorporateOffice(Today, csv)</span>
+                <span class="method-start">191120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chekForCorporateOffice(Previous Month, text)</span>
+                <span class="method-start">191453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chekForCorporateOffice(This Month, csv)</span>
+                <span class="method-start">191803 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

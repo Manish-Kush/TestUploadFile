@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="59" passed="59">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="192163" started-at="2019-04-26T12:29:29Z" finished-at="2019-04-26T12:32:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="192163" started-at="2019-04-26T12:29:29Z" finished-at="2019-04-26T12:32:42Z">
+      <class name="com.reports.testcases.TestRevenueAccrualReportBuilder">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="setUp" is-config="true" duration-ms="17599" started-at="2019-04-26T12:29:29Z" finished-at="2019-04-26T12:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test3MonthPdf()[pri:1, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="test3MonthPdf" duration-ms="296" started-at="2019-04-26T12:29:47Z" finished-at="2019-04-26T12:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3MonthPdf -->
+        <test-method status="PASS" signature="test3MonthCsv()[pri:2, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="test3MonthCsv" duration-ms="226" started-at="2019-04-26T12:29:47Z" finished-at="2019-04-26T12:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3MonthCsv -->
+        <test-method status="PASS" signature="test3MonthText()[pri:3, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="test3MonthText" duration-ms="196" started-at="2019-04-26T12:29:48Z" finished-at="2019-04-26T12:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3MonthText -->
+        <test-method status="PASS" signature="testDateFieldsBlank_pdf()[pri:4, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testDateFieldsBlank_pdf" duration-ms="196" started-at="2019-04-26T12:29:48Z" finished-at="2019-04-26T12:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDateFieldsBlank_pdf -->
+        <test-method status="PASS" signature="testDateFieldsBlank_csv()[pri:5, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testDateFieldsBlank_csv" duration-ms="148" started-at="2019-04-26T12:29:48Z" finished-at="2019-04-26T12:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDateFieldsBlank_csv -->
+        <test-method status="PASS" signature="testDateFieldsBlank_text()[pri:6, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testDateFieldsBlank_text" duration-ms="199" started-at="2019-04-26T12:29:48Z" finished-at="2019-04-26T12:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDateFieldsBlank_text -->
+        <test-method status="PASS" signature="testFromDateFieldBlank_pdf()[pri:7, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testFromDateFieldBlank_pdf" duration-ms="180" started-at="2019-04-26T12:29:48Z" finished-at="2019-04-26T12:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFromDateFieldBlank_pdf -->
+        <test-method status="PASS" signature="testToDateFieldBlank_pdf()[pri:8, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testToDateFieldBlank_pdf" duration-ms="151" started-at="2019-04-26T12:29:48Z" finished-at="2019-04-26T12:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToDateFieldBlank_pdf -->
+        <test-method status="PASS" signature="testFromDateFieldBlank_cvs()[pri:9, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testFromDateFieldBlank_cvs" duration-ms="161" started-at="2019-04-26T12:29:49Z" finished-at="2019-04-26T12:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFromDateFieldBlank_cvs -->
+        <test-method status="PASS" signature="testToDateFieldBlank_cvs()[pri:10, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testToDateFieldBlank_cvs" duration-ms="178" started-at="2019-04-26T12:29:49Z" finished-at="2019-04-26T12:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToDateFieldBlank_cvs -->
+        <test-method status="PASS" signature="testFromDateFieldBlank_text()[pri:11, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testFromDateFieldBlank_text" duration-ms="179" started-at="2019-04-26T12:29:49Z" finished-at="2019-04-26T12:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFromDateFieldBlank_text -->
+        <test-method status="PASS" signature="testToDateFieldBlank_text()[pri:12, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testToDateFieldBlank_text" duration-ms="148" started-at="2019-04-26T12:29:49Z" finished-at="2019-04-26T12:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToDateFieldBlank_text -->
+        <test-method status="PASS" signature="testDateFieldsBlank_favSaveButton()[pri:13, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testDateFieldsBlank_favSaveButton" duration-ms="201" started-at="2019-04-26T12:29:49Z" finished-at="2019-04-26T12:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDateFieldsBlank_favSaveButton -->
+        <test-method status="PASS" signature="testFromDateFieldBlank_favSaveButton()[pri:14, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testFromDateFieldBlank_favSaveButton" duration-ms="224" started-at="2019-04-26T12:29:49Z" finished-at="2019-04-26T12:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFromDateFieldBlank_favSaveButton -->
+        <test-method status="PASS" signature="testToDateFieldBlank_favSaveButton()[pri:15, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="testToDateFieldBlank_favSaveButton" duration-ms="209" started-at="2019-04-26T12:29:50Z" finished-at="2019-04-26T12:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToDateFieldBlank_favSaveButton -->
+        <test-method status="PASS" signature="checkForThisFinancialYear()[pri:16, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="checkForThisFinancialYear" duration-ms="150" started-at="2019-04-26T12:29:50Z" finished-at="2019-04-26T12:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForThisFinancialYear -->
+        <test-method status="PASS" signature="checkForPreviousFinancialYear()[pri:17, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="checkForPreviousFinancialYear" duration-ms="113" started-at="2019-04-26T12:29:50Z" finished-at="2019-04-26T12:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForPreviousFinancialYear -->
+        <test-method status="PASS" signature="verifyDateFieldsForYesterdayOptions()[pri:18, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyDateFieldsForYesterdayOptions" duration-ms="614" started-at="2019-04-26T12:29:50Z" finished-at="2019-04-26T12:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateFieldsForYesterdayOptions -->
+        <test-method status="PASS" signature="verifyDateFieldsForTodayOptions()[pri:19, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyDateFieldsForTodayOptions" duration-ms="328" started-at="2019-04-26T12:29:51Z" finished-at="2019-04-26T12:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateFieldsForTodayOptions -->
+        <test-method status="PASS" signature="verifyDateFieldsForPreviousMonthOptions()[pri:20, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyDateFieldsForPreviousMonthOptions" duration-ms="328" started-at="2019-04-26T12:29:51Z" finished-at="2019-04-26T12:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateFieldsForPreviousMonthOptions -->
+        <test-method status="PASS" signature="verifyDateFieldsForThisMonthOptions()[pri:21, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyDateFieldsForThisMonthOptions" duration-ms="335" started-at="2019-04-26T12:29:51Z" finished-at="2019-04-26T12:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateFieldsForThisMonthOptions -->
+        <test-method status="PASS" signature="verifyDateFieldsForFromPastToFuture_pdf()[pri:22, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyDateFieldsForFromPastToFuture_pdf" duration-ms="231" started-at="2019-04-26T12:29:52Z" finished-at="2019-04-26T12:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateFieldsForFromPastToFuture_pdf -->
+        <test-method status="PASS" signature="verifyDateFieldsForFromPastToFuture_csv()[pri:23, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyDateFieldsForFromPastToFuture_csv" duration-ms="197" started-at="2019-04-26T12:29:52Z" finished-at="2019-04-26T12:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateFieldsForFromPastToFuture_csv -->
+        <test-method status="PASS" signature="verifyDateFieldsForFromPastToFuture_text()[pri:24, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyDateFieldsForFromPastToFuture_text" duration-ms="168" started-at="2019-04-26T12:29:52Z" finished-at="2019-04-26T12:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateFieldsForFromPastToFuture_text -->
+        <test-method status="PASS" signature="verifyDateFieldsForFromPastToFuture_fav()[pri:25, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyDateFieldsForFromPastToFuture_fav" duration-ms="213" started-at="2019-04-26T12:29:52Z" finished-at="2019-04-26T12:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateFieldsForFromPastToFuture_fav -->
+        <test-method status="PASS" signature="vreifyForYesterdaysDateOnReFreshing()[pri:26, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="vreifyForYesterdaysDateOnReFreshing" duration-ms="26688" started-at="2019-04-26T12:29:53Z" finished-at="2019-04-26T12:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vreifyForYesterdaysDateOnReFreshing -->
+        <test-method status="PASS" signature="checkAutoCustomDateOption()[pri:27, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="checkAutoCustomDateOption" duration-ms="686" started-at="2019-04-26T12:30:19Z" finished-at="2019-04-26T12:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAutoCustomDateOption -->
+        <test-method status="PASS" signature="verifyAllowedReportDurationDropdown(java.lang.String, java.lang.String)[pri:28, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyAllowedReportDurationDropdown" duration-ms="518" started-at="2019-04-26T12:30:20Z" data-provider="allowedReportDurationoption" finished-at="2019-04-26T12:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please Select 1 Month Duration and save the report.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowedReportDurationDropdown -->
+        <test-method status="PASS" signature="verifyAllowedReportDurationDropdown(java.lang.String, java.lang.String)[pri:28, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyAllowedReportDurationDropdown" duration-ms="563" started-at="2019-04-26T12:30:21Z" data-provider="allowedReportDurationoption" finished-at="2019-04-26T12:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please Select 2 Months Duration and save the report.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowedReportDurationDropdown -->
+        <test-method status="PASS" signature="verifyAllowedReportDurationDropdown(java.lang.String, java.lang.String)[pri:28, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyAllowedReportDurationDropdown" duration-ms="534" started-at="2019-04-26T12:30:21Z" data-provider="allowedReportDurationoption" finished-at="2019-04-26T12:30:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please Select 3 Months Duration and save the report.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowedReportDurationDropdown -->
+        <test-method status="PASS" signature="verifyAllowedReportDurationDropdown(java.lang.String, java.lang.String)[pri:28, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="verifyAllowedReportDurationDropdown" duration-ms="532" started-at="2019-04-26T12:30:22Z" data-provider="allowedReportDurationoption" finished-at="2019-04-26T12:30:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-- Select --]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please Select 3 Months Duration and save the report.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowedReportDurationDropdown -->
+        <test-method status="PASS" signature="pdfTest(java.lang.String, java.lang.String)[pri:29, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="pdfTest" duration-ms="1481" started-at="2019-04-26T12:30:22Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yesterday]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdfTest -->
+        <test-method status="PASS" signature="pdfTest(java.lang.String, java.lang.String)[pri:29, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="pdfTest" duration-ms="1127" started-at="2019-04-26T12:30:24Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Custom Date]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdfTest -->
+        <test-method status="PASS" signature="pdfTest(java.lang.String, java.lang.String)[pri:29, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="pdfTest" duration-ms="1126" started-at="2019-04-26T12:30:25Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Today]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdfTest -->
+        <test-method status="PASS" signature="pdfTest(java.lang.String, java.lang.String)[pri:29, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="pdfTest" duration-ms="1242" started-at="2019-04-26T12:30:26Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This Month]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdfTest -->
+        <test-method status="PASS" signature="pdfTest(java.lang.String, java.lang.String)[pri:29, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="pdfTest" duration-ms="4765" started-at="2019-04-26T12:30:27Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Previous Month]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdfTest -->
+        <test-method status="PASS" signature="pdfTest(java.lang.String, java.lang.String)[pri:29, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="pdfTest" duration-ms="1193" started-at="2019-04-26T12:30:32Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:30:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Today]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[csv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdfTest -->
+        <test-method status="PASS" signature="pdfTest(java.lang.String, java.lang.String)[pri:29, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="pdfTest" duration-ms="1514" started-at="2019-04-26T12:30:33Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:30:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Previous Month]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdfTest -->
+        <test-method status="PASS" signature="pdfTest(java.lang.String, java.lang.String)[pri:29, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="pdfTest" duration-ms="1110" started-at="2019-04-26T12:30:35Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:30:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This Month]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[csv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdfTest -->
+        <test-method status="PASS" signature="createFavouritesForAllowedReportDurationoption(java.lang.String, java.lang.String)[pri:30, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="createFavouritesForAllowedReportDurationoption" duration-ms="6859" started-at="2019-04-26T12:30:36Z" data-provider="allowedReportDurationoption" finished-at="2019-04-26T12:30:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please Select 1 Month Duration and save the report.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFavouritesForAllowedReportDurationoption -->
+        <test-method status="PASS" signature="createFavouritesForAllowedReportDurationoption(java.lang.String, java.lang.String)[pri:30, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="createFavouritesForAllowedReportDurationoption" duration-ms="6284" started-at="2019-04-26T12:30:43Z" data-provider="allowedReportDurationoption" finished-at="2019-04-26T12:30:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please Select 2 Months Duration and save the report.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFavouritesForAllowedReportDurationoption -->
+        <test-method status="PASS" signature="createFavouritesForAllowedReportDurationoption(java.lang.String, java.lang.String)[pri:30, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="createFavouritesForAllowedReportDurationoption" duration-ms="5449" started-at="2019-04-26T12:30:49Z" data-provider="allowedReportDurationoption" finished-at="2019-04-26T12:30:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please Select 3 Months Duration and save the report.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFavouritesForAllowedReportDurationoption -->
+        <test-method status="PASS" signature="createFavouritesForAllowedReportDurationoption(java.lang.String, java.lang.String)[pri:30, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="createFavouritesForAllowedReportDurationoption" duration-ms="5223" started-at="2019-04-26T12:30:54Z" data-provider="allowedReportDurationoption" finished-at="2019-04-26T12:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-- Select --]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please Select 3 Months Duration and save the report.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFavouritesForAllowedReportDurationoption -->
+        <test-method status="PASS" signature="checkFavouriteReportsForDefaultDate_option1()[pri:31, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="checkFavouriteReportsForDefaultDate_option1" duration-ms="15561" started-at="2019-04-26T12:31:00Z" finished-at="2019-04-26T12:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFavouriteReportsForDefaultDate_option1 -->
+        <test-method status="PASS" signature="checkFavouriteReportsForDefaultDate_option2()[pri:32, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="checkFavouriteReportsForDefaultDate_option2" duration-ms="15607" started-at="2019-04-26T12:31:15Z" finished-at="2019-04-26T12:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFavouriteReportsForDefaultDate_option2 -->
+        <test-method status="PASS" signature="checkFavouriteReportsForDefaultDate_option3()[pri:33, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="checkFavouriteReportsForDefaultDate_option3" duration-ms="15466" started-at="2019-04-26T12:31:31Z" finished-at="2019-04-26T12:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFavouriteReportsForDefaultDate_option3 -->
+        <test-method status="PASS" signature="checkFavouriteReportsForDefaultDate_optionSelect()[pri:34, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="checkFavouriteReportsForDefaultDate_optionSelect" duration-ms="15260" started-at="2019-04-26T12:31:46Z" finished-at="2019-04-26T12:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFavouriteReportsForDefaultDate_optionSelect -->
+        <test-method status="PASS" signature="switchToTheUser()[pri:35, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="switchToTheUser" duration-ms="1618" started-at="2019-04-26T12:32:01Z" finished-at="2019-04-26T12:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToTheUser -->
+        <test-method status="PASS" signature="check1MonthFavPDFReport()[pri:36, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="check1MonthFavPDFReport" duration-ms="9523" started-at="2019-04-26T12:32:03Z" finished-at="2019-04-26T12:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check1MonthFavPDFReport -->
+        <test-method status="PASS" signature="check2MonthFavPDFReport()[pri:37, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="check2MonthFavPDFReport" duration-ms="9443" started-at="2019-04-26T12:32:13Z" finished-at="2019-04-26T12:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check2MonthFavPDFReport -->
+        <test-method status="PASS" signature="check3MonthFavPDFReport()[pri:38, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="check3MonthFavPDFReport" duration-ms="9377" started-at="2019-04-26T12:32:22Z" finished-at="2019-04-26T12:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check3MonthFavPDFReport -->
+        <test-method status="PASS" signature="chekForCorporateOffice(java.lang.String, java.lang.String)[pri:39, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="chekForCorporateOffice" duration-ms="7606" started-at="2019-04-26T12:32:31Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:32:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yesterday]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekForCorporateOffice -->
+        <test-method status="PASS" signature="chekForCorporateOffice(java.lang.String, java.lang.String)[pri:39, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="chekForCorporateOffice" duration-ms="351" started-at="2019-04-26T12:32:39Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:32:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Custom Date]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekForCorporateOffice -->
+        <test-method status="PASS" signature="chekForCorporateOffice(java.lang.String, java.lang.String)[pri:39, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="chekForCorporateOffice" duration-ms="394" started-at="2019-04-26T12:32:39Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Today]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekForCorporateOffice -->
+        <test-method status="PASS" signature="chekForCorporateOffice(java.lang.String, java.lang.String)[pri:39, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="chekForCorporateOffice" duration-ms="362" started-at="2019-04-26T12:32:40Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This Month]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekForCorporateOffice -->
+        <test-method status="PASS" signature="chekForCorporateOffice(java.lang.String, java.lang.String)[pri:39, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="chekForCorporateOffice" duration-ms="343" started-at="2019-04-26T12:32:40Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Previous Month]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekForCorporateOffice -->
+        <test-method status="PASS" signature="chekForCorporateOffice(java.lang.String, java.lang.String)[pri:39, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="chekForCorporateOffice" duration-ms="332" started-at="2019-04-26T12:32:40Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:32:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Today]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[csv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekForCorporateOffice -->
+        <test-method status="PASS" signature="chekForCorporateOffice(java.lang.String, java.lang.String)[pri:39, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="chekForCorporateOffice" duration-ms="349" started-at="2019-04-26T12:32:41Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:32:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Previous Month]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekForCorporateOffice -->
+        <test-method status="PASS" signature="chekForCorporateOffice(java.lang.String, java.lang.String)[pri:39, instance:com.reports.testcases.TestRevenueAccrualReportBuilder@4f933fd1]" name="chekForCorporateOffice" duration-ms="344" started-at="2019-04-26T12:32:41Z" data-provider="dateRangeDropDownOptions" finished-at="2019-04-26T12:32:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This Month]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[csv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekForCorporateOffice -->
+      </class> <!-- com.reports.testcases.TestRevenueAccrualReportBuilder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
